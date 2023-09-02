@@ -78,9 +78,9 @@ export const AnimationContentShow = styled(Flex, {
     display : 'flex',
     justifyContent : 'center',
     alignItems : 'center',
-    background: 'url("/images/new/istockphoto.jpg") no-repeat',
+    background: 'url("/images/new/Warehouse2.jpg") no-repeat',
     backgroundSize: "cover",
-    minHeight: "70vh",
+    minHeight: "80vh",
     backgroundPosition: "bottom 50% left 40%",
     backgroundAttachment: "fixed",
   });
@@ -92,7 +92,7 @@ export const AnimationContentShow = styled(Flex, {
     alignItems : 'center',
     background: 'url("/images/new/arabic4.jpg") no-repeat',
     backgroundSize: "cover",
-    minHeight: "60vh",
+    minHeight: "90vh",
     backgroundPosition: "bottom 50% left 40%",
     backgroundAttachment: "fixed",
   });
@@ -104,7 +104,7 @@ export const AnimationContentShow = styled(Flex, {
     alignItems : 'center',
     background: 'url("/images/new/Warehouse.jpg") no-repeat',
     backgroundSize: "cover",
-    minHeight: "60vh",
+    minHeight: "90vh",
     backgroundPosition: "bottom 50% left 40%",
     backgroundAttachment: "fixed",
     mb : '100px'
