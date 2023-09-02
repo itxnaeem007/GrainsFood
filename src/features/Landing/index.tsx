@@ -12,6 +12,7 @@ import {
   ThirdBanner,
 } from "./style";
 import { Testimonials } from "./components/Testimonials";
+import { SlideMarquee } from "@/components/Marquee";
 
 export const Landing = () => {
   return (
@@ -253,12 +254,11 @@ export const Landing = () => {
         </Row>
 
         <Row css={{ width: "100%", mb: "$14" }}>
- 
-          <Col xs={12} >
+          <Col xs={12}>
             <Flex
-              css={{w : '100%'}}
+              css={{ w: "100%" }}
               direction={"column"}
-              justify={'center'}
+              justify={"center"}
               align={"center"}
             >
               <Text as={"p"} variant={"p_xlg"} weight={"semibold"}>
@@ -279,10 +279,10 @@ export const Landing = () => {
           </Col>
         </Row>
       </Responsive>
-      <ForthBanner/>
+      <ForthBanner />
       <Responsive>
         <div className="mapouter" style={{ width: "100%", height: "400px" }}>
-          <div className="gmap_canvas" style={{height : '100%'}}>
+          <div className="gmap_canvas" style={{ height: "100%" }}>
             <iframe
               className="gmap_iframe"
               width="100%"
@@ -293,31 +293,31 @@ export const Landing = () => {
         </div>
       </Responsive>
       <Flex css={{ m: "$16 0 $12 0" }} justify={"between"}>
-        {/* <SlideMarquee speed={25}>
-          {isTokenLoading ? (
-            <Spinner />
-          ) : (
-            tokenList?.map((item, ind) => (
-              <Flex align={"center"}>
-                <Box
-                  key={ind}
-                  as={"img"}
-                  css={{
-                    w: "50px",
-                    height: "50px",
-                    m: "0 1rem 0 6rem",
-                    borderRadius: "50%",
-                  }}
-                  src={item.imageUrl}
-                  alt=""
-                />
-                <Text variant={"p_lg"} weight={"medium"}>
-                  {item.name}
-                </Text>
-              </Flex>
-            ))
-          )}
-        </SlideMarquee> */}
+        <SlideMarquee speed={25}>
+          {[
+            "Grains",
+            "Foods",
+            "Trading",
+            "Dubai",
+            "Ajman",
+            "Grains",
+            "Foods",
+            "Trading",
+            "Dubai",
+            "Ajman",
+          ]?.map((item, ind) => (
+            <Flex
+              key={ind}
+              align={"center"}
+              justify={"between"}
+              css={{ w: "100%" }}
+            >
+              <Text variant={"p_lg"} color={'logoText'}  css={{mx : '30px'}} weight={"bold"}>
+                {item}
+              </Text>
+            </Flex>
+          ))}
+        </SlideMarquee>
       </Flex>
     </>
   );
