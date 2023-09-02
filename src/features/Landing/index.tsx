@@ -37,9 +37,9 @@ export const Landing = () => {
             lg={6}
             css={{ position: "relative", overflow: "hidden" }}
           >
-            <InnerImage src={"/images/new/arabic2.jpg"} alt="" />
+            <InnerImage src={"/images/new/getty.jpg"} alt="" />
             <StyledText variant={"p_3xl"} weight={"bold"} align={"center"}>
-              TOP REASONS <br /> WHY CHEFS
+              TOP REASONS <br /> WHY PEOPLE
               <br /> LOVE US
             </StyledText>
           </Col>
