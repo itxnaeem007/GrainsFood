@@ -58,7 +58,7 @@ export const Landing = () => {
             lg={6}
             css={{ position: "relative", overflow: "hidden" }}
           >
-            <InnerImage src={"/images/new/anna-pelzer.jpg"} alt="" />
+            <InnerImage src={"/images/new/arabic77.jpg"} alt="" />
             <StyledText variant={"p_3xl"} weight={"bold"} align={"center"}>
               GREEN <br /> CATERING
             </StyledText>
