@@ -60,7 +60,7 @@ export const Landing = () => {
           >
             <InnerImage src={"/images/new/arabic77.jpg"} alt="" />
             <StyledText variant={"p_3xl"} weight={"bold"} align={"center"}>
-              GREEN <br /> CATERING
+              TOP <br /> WAREHOUSES
             </StyledText>
           </Col>
         </Row>
