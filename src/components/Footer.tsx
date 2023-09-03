@@ -43,11 +43,10 @@ const Footer = () => {
               <Col xs={12} lg={5}>
                 <Flex direction={"column"}>
                   <Text variant={"p_md"} color={"white"}>
-                    AJMAN FREE ZONE
-                    <br />
+                    
                     Building #01 - office #419(F)
                     <br />
-                    Dubai, UAE
+                    AJMAN FREE ZONE
                   </Text>
                 </Flex>
               </Col>
@@ -59,8 +58,8 @@ const Footer = () => {
                     css={{ textDecoration: "underline" }}
                   >
                     +971 65241595
-                    <br />
-                    +971527142004
+                    {/* <br />
+                    +971527142004 */}
                     <br />
                     info@grainsfoodtrading.com
                   </Text>

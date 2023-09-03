@@ -200,6 +200,13 @@ export const Landing = () => {
               background: "black",
               borderRadius: "10px",
               padding: "10px",
+              cursor : 'pointer'
+            }}
+            onClick={() => {
+              window.open(
+                "https://drive.google.com/file/d/1NZuajHjVxzWO-1uW0LWnyYLegdnrMQZm/view?usp=sharing",
+                "_blank"
+              );
             }}
           >
             <Flex justify={"between"} css={{ minWidth: "200px", px: "20px" }}>
@@ -312,7 +319,12 @@ export const Landing = () => {
               justify={"between"}
               css={{ w: "100%" }}
             >
-              <Text variant={"p_lg"} color={'logoText'}  css={{mx : '30px'}} weight={"bold"}>
+              <Text
+                variant={"p_lg"}
+                color={"logoText"}
+                css={{ mx: "30px" }}
+                weight={"bold"}
+              >
                 {item}
               </Text>
             </Flex>
