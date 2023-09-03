@@ -204,7 +204,7 @@ export const Landing = () => {
             }}
             onClick={() => {
               window.open(
-                "https://drive.google.com/file/d/1NZuajHjVxzWO-1uW0LWnyYLegdnrMQZm/view?usp=sharing",
+                "https://drive.google.com/file/d/1POjzUyH8ImW9YQNQ0FvDr-rsc4Ege3l-/view?usp=sharing",
                 "_blank"
               );
             }}
